@@ -2,6 +2,8 @@
 
 A Node.js script to monitor your [Morpho Finance](https://morpho.org/) positions and receive liquidation risk alerts via Telegram.
 
+[Video Companion](https://www.youtube.com/watch?v=yoSDkWjLt4g)
+
 ## Overview
 
 This tool monitors your Morpho lending/borrowing positions to help prevent liquidations. It continuously checks your Liquidation Loan-to-Value (LLTV) ratio and sends alerts to your Telegram when your position approaches liquidation risk.
