@@ -135,7 +135,7 @@ For 24/7 monitoring:
 npm install -g pm2
 
 # Start with PM2
-pm2 start index.js --name morpho-monitor
+pm2 start src/monitor.js --name morpho-monitor
 
 # Ensure it starts on reboot
 pm2 startup
